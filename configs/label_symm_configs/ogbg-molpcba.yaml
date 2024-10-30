@@ -1,0 +1,7 @@
+dataset:
+  name: ogbg-molpcba
+  one_hot_dim: 119
+  max_set_size: 20
+  path: 'label_symm_data'
+  max_node_set_size: 20
+  max_edge_set_size: 23

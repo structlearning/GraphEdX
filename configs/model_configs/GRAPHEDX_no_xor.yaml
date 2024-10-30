@@ -1,0 +1,17 @@
+model:
+    name: 'GRAPHEDX_no_xor'
+    classPath: 'models.graphedx'
+    LAMBDA: 1.0
+    node_add_cost: 1.0
+    node_del_cost: 1.0
+    edge_add_cost: 1.0
+    edge_del_cost: 1.0
+    output_mode: 'L2'
+    edge_scale: 1
+    use_max : False
+    use_second_sinkhorn : True
+    use_second_sinkhorn_log : False 
+    use_h_hp_node : False 
+    use_m_ms_edge : False
+
+    is_baselines: False

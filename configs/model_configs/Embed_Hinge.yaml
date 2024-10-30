@@ -1,0 +1,5 @@
+model:
+    name: 'Embed_Hinge'
+    classPath: 'models.ablations.abl_baselines_scoring'
+    output_mode: 'L1'
+    is_baseline: True

@@ -1,0 +1,11 @@
+model:
+  name: SimGNNTensorized
+  classPath: baselines.models.simgnn
+  filters_1: 128
+  filters_2: 64
+  filters_3: 32
+  tensor_neurons: 16
+  histogram: false
+  bins: 16
+  bottle_neck_neurons: 16
+  is_baseline: True

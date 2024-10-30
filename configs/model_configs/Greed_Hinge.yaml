@@ -1,0 +1,10 @@
+model:
+    name: 'NormGEDModel'
+    classPath: 'models.ablations.abl_baselines_scoring'
+    n_layers: 5
+    hidden_dim: 10
+    output_dim: 10
+    conv: 'gin'
+    pool: 'add'
+    output_mode: 'L1'
+    is_baseline: True

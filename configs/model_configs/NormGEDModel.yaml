@@ -1,0 +1,10 @@
+model:
+    name: 'NormGEDModel'
+    classPath: 'baselines.models.greed'
+    n_layers: 8
+    hidden_dim: 64
+    output_dim: 64
+    conv: 'gin'
+    pool: 'add'
+    output_mode: 'L2'
+    is_baseline: True

@@ -1,0 +1,5 @@
+model:
+    name: 'GraphSim'
+    classPath: 'baselines.models.graphsim'
+    is_sig: False
+    is_baseline: True

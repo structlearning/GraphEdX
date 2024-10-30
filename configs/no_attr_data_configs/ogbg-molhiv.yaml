@@ -1,0 +1,7 @@
+dataset:
+  name: ogbg-molhiv
+  one_hot_dim: 1
+  max_set_size: 20
+  path: 'no_attr_data'
+  max_node_set_size: 20
+  max_edge_set_size: 23

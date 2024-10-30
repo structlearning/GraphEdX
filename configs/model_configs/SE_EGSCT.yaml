@@ -1,0 +1,9 @@
+model:
+  name: 'SE_EGSCT'
+  classPath: 'baselines.models.egsc'
+  gnn_operator: 'gin'
+  filters_1: 10
+  filters_2: 10
+  filters_3: 10
+  bottle_neck_neurons: 10
+  is_baseline: True

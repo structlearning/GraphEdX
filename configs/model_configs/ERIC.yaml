@@ -1,0 +1,43 @@
+model:
+  name: 'ERIC'
+  classPath: 'baselines.models.eric'
+  multilabel: False
+
+  num_layers: 2
+  activation: "relu"
+  multirun: 1
+  feat_norm: False
+  synth: False
+  scale: 1
+  show_last: False
+
+  gnn_encoder: "GIN"      
+  multi_contrast: False
+  gnn_filters: [10, 10, 10, 10, 10]
+  dropout: 0.
+
+  deepsets: True
+  use_bn: False
+  deepsets_inner_act: "relu"      
+  deepsets_outer_act: "relu"
+  fuse_type: "cat"       # 'add', 'stack', 'cat'
+  pooling: 'add'     # 'add', 'mean'
+  reduction: 2
+  inner_mlp: True       # 'mlp'
+  inner_mlp_layers: 1
+  outer_mlp_layers: 1
+
+  use_mlp_score: True
+
+  use_sim: True
+  NTN_layers: 1
+  tensor_neurons: 10
+  output_comb: True  
+
+  use_ssl: True
+  use_deepsets: True
+  use_ff: False
+  sep: True
+  measure: 'JSD'
+
+  is_baseline: True

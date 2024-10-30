@@ -1,0 +1,51 @@
+task:
+  name: ''
+
+log:
+  dir: 'logs'
+
+base_dir: '.'
+
+training:
+  batch_size: 256
+  device: 'cuda'
+  dropout: 0
+  learning_rate: 1e-3
+  weight_decay: 5e-4
+  num_epochs: 2000
+  seed: 0
+  run_till_early_stopping: True
+  wandb_watch: False
+  overwrite: False
+  patience: 100
+  weights_dir: 'weights'
+  sinkhorn_temp: 0.1
+  sinkhorn_noise: 0
+
+
+dataset:
+  name: 'linux'
+  path: 'data'
+  data_type: 'gmn'
+  return_adj: False
+
+  node_ins_cost: 1
+  node_del_cost: 3
+  node_rel_cost: 0
+  edge_ins_cost: 1
+  edge_del_cost: 2
+  edge_rel_cost: 0
+  use_cost_features: True
+
+
+model:
+  name: ???
+  norm_mode: asymm
+
+gmn:
+  filters_3: 10
+  GMN_NPROPLAYERS: 5
+  variant: shallow
+
+mode: no_attr
+data_mode: asymmetric

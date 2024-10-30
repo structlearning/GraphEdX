@@ -1,0 +1,5 @@
+model:
+    name: 'Match'
+    classPath: 'baselines.models.GMN'
+    output_mode: 'L1'
+    is_baseline: True

@@ -1,0 +1,7 @@
+dataset:
+  name: linux
+  one_hot_dim: 1
+  max_set_size: 10
+  path: 'no_attr_data'
+  max_node_set_size: 10
+  max_edge_set_size: 13

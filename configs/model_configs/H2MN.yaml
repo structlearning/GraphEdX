@@ -1,0 +1,12 @@
+model:
+    name: 'H2MN'
+    classPath: 'baselines.models.h2mn'
+    nhid: 10
+    k: 5
+    ratio1: 1 
+    ratio2: 1
+    ratio3: 0.8
+    mode: 'RW'
+    dropout: 0.0
+    use_node_degree: False
+    is_baseline: True

@@ -1,0 +1,15 @@
+model:
+    name: 'GRAPHEDX_ExE'
+    classPath: 'models.ablations.abl_sparse'
+    LAMBDA: 1.0
+    node_add_cost: 1.0
+    node_del_cost: 1.0
+    edge_add_cost: 1.0
+    edge_del_cost: 1.0
+    output_mode: 'L1'
+    edge_scale: 1
+    use_max : False
+    use_second_sinkhorn : False
+    use_second_sinkhorn_log : False 
+    use_h_hp_node : False 
+    use_m_ms_edge : False

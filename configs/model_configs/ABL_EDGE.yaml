@@ -1,0 +1,11 @@
+model:
+    name: 'GRAPHEDX_EDGE'
+    classPath: 'models.ablations.abl_node_edge_only'
+    LAMBDA: 1.0
+    output_mode: 'L1'
+    edge_scale: 1
+    use_max : False
+    use_second_sinkhorn : True
+    use_second_sinkhorn_log : False 
+    use_h_hp_node : False 
+    use_m_ms_edge : False
