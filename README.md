@@ -73,13 +73,12 @@ An example to run an ablation of sparse representation for mutagenicity in unequ
 
 ## Citation
 ```
-@misc{jain2024grapheditdistancegeneral,
-      title={Graph Edit Distance with General Costs Using Neural Set Divergence}, 
+@inproceedings{
+      jain2024graph,
+      title={{Graph Edit Distance with General Costs Using Neural Set Divergence}},
       author={Eeshaan Jain and Indradyumna Roy and Saswat Meher and Soumen Chakrabarti and Abir De},
+      booktitle={The Thirty-eighth Annual Conference on Neural Information Processing Systems},
       year={2024},
-      eprint={2409.17687},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2409.17687}, 
+      url={https://openreview.net/forum?id=u7JRmrGutT}
 }
 ```
