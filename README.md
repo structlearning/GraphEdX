@@ -11,12 +11,12 @@ conda create --name <env> --file requirements.txt
 ```
 
 ## Dataset
-Extract 3 dataset folders from the provided [link](rebrand.ly/graph-edit-distance) into the current directory.
+Extract 3 dataset folders from the provided [link](https://rebrand.ly/graph-edit-distance) into the current directory.
 Three dataset folders: no_attr_data (equal cost), no_attr_asymm_data (unequal cost), and lable_symm_data (node substitution cost). We have seven datasets in total: mutagenicity, ogbg-code2, ogbg-molhiv, ogbg-molpcba, aids, linux, and yeast.
 The script used to generate the dataset can be found in `notebooks/get_unique_graphs_wo_attr.ipynb`
 ## Run Experiments
 
-Download the checkpoints provided in the [link](rebrand.ly/graph-edit-distance) into the current directory.
+Download the checkpoints provided in the [link](https://rebrand.ly/graph-edit-distance) into the current directory.
 Use the following commands to train GRAPHEDX, baselines, and various ablations for the experiment.
 `./scripts` contains scripts to train GRAPHEDX and baselines.
 `./ablation_scripts` contains scripts to run ablation of our model and baselines.
